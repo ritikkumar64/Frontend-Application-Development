@@ -1,0 +1,85 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+.chat-window {
+  display: flex;
+  width: 100%;
+}
+
+.history-panel {
+  width: 200px;
+  background: #222;
+  color: white;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.history-btn {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  background: #444;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-list {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  max-width: 70%;
+}
+
+.message.user {
+  background: #007bff;
+  color: white;
+  align-self: flex-end;
+}
+
+.message.ai {
+  background: #e5e5e5;
+  color: black;
+  align-self: flex-start;
+}
+
+.user-input {
+  display: flex;
+  padding: 10px;
+  background: white;
+}
+
+.user-input input {
+  flex: 1;
+  padding: 8px;
+}
+
+.user-input button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+  padding: 8px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
